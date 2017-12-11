@@ -1,5 +1,5 @@
 pragma solidity ^0.4.0;
-contract Dividend {
+contract BasicDividendContract {
     struct Investor {
         uint usedPayouts;
         bool invested;
@@ -11,7 +11,7 @@ contract Dividend {
     uint private numInvestors;
     uint constant INVESTMENT_AMOUNT = 1 ether;
     
-    function Dividend() public {
+    function BasicDividendContract() public {
         owner = msg.sender;
         averageDividend = 0;
         numPayouts = 0;
@@ -54,7 +54,7 @@ contract Dividend {
         numPayouts++;
         averageDividend = this.balance / numInvestors;
     }
-    function invest() payable notInvested notOwner payedAmount public  {
+    function invest() payable notInvested notOwner payedAmount public {
         // Pass sent money to contract owner
         owner.transfer(msg.value);
         // Initialize information about this investor
