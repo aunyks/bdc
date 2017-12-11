@@ -37,5 +37,5 @@ Charlie remembers to withdraw his dividend. In this case, he only receives his m
 Thanks for your interest in contributing. At the moment, I'll be accepting new feature proposals and changes to the contract's code.  
 
 If you'd like to tip me, my addresses are below:  
-BTC: 38wbJRCVNnDLLZw1WA6rExNx5crGpFG6dk
+BTC: 38wbJRCVNnDLLZw1WA6rExNx5crGpFG6dk  
 ETH: 0x037c241Baf5Ba2fa395db0Befac185e4E6b6608f
