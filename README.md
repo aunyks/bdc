@@ -25,7 +25,8 @@ Fundraising is a common use case for the Ethereum blockchain in the form of ICOs
 - Once a person invests, they are not allowed to invest again.  
 - The owner of the contract (who deployed it) cannot invest in the contract from the owning address.  
 - There is a function `getOwner()` that can be used to retrieve the owner of the contract.  
-- While investment occurs once per investor, payouts and withdrawals can occur an infinite amount of times.  
+- While investment occurs once per investor, payouts and withdrawals can occur an infinite amount of times. 
+- Similarly to an ICO, this contract creates no explicit incentive for the owner to pay back funds. Thus, their incentive to pay back investors must be created and enforced elsewhere.  
 - **If an investor doesn't withdraw their dividend before the next payout, their dividend for the last period is lost. For example:**  
 Charlie is an investor in Alice's business.  
 If Alice pays out a balance to the contract, Charlie has a dividend waiting to be withdrawn.  
